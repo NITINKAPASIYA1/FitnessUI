@@ -51,7 +51,7 @@ struct ActiveLessonCard: View {
                     .clipShape(Capsule())
                     .overlay(
                         Capsule()
-                            .stroke(Color.white, lineWidth: 1) // White stroke added here
+                            .stroke(Color.white, lineWidth: 1)
                     )
                 }
                 .padding(.bottom, 10)

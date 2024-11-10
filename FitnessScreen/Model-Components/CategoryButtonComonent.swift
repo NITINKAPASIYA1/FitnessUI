@@ -35,7 +35,7 @@ struct CategoryButton: View {
                     }
                 }
                 Text(category)
-                    .font(.system(size: 16, weight: .bold))
+                    .font(.system(size: 16, weight: .regular))
             }
             .padding(.vertical, 10)
             .padding(.horizontal, category == "All" ? 15 : 5)
